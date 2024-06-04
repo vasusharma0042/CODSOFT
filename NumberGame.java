@@ -17,9 +17,22 @@ public class NumberGame{
                        guess = true;
                        finals += 1;
                        System.out.println("you on it.");
+                       break;
+                   }
+                   else if(user>guess) {
+                       System.out.println("Too High");
+                   }
+                   else{
+                       System.out.println("Too low");
                    }
                }
+               if(guess == false) {
+                   System.out.println("Sorry.you lost your chances"+rand);
+               }
+               String pA = sc.next();
+               playAgain = pA.equalsIgnoreCase("y");
            }
+           System.out.println("Hope you enjoyed it");
        }
     }
 }

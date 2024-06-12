@@ -22,12 +22,7 @@
                        System.out.println("you on it.");
                        break;
                    }
-                   else if(user>guess) {
-                       System.out.println("Too High");
-                   }
-                   else{
-                       System.out.println("Too low");
-                   }
+                   
                }
        }
     }

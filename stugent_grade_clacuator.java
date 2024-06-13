@@ -11,6 +11,8 @@ class stugent_grade_clacuator{
             int marks = sc.nextInt();
             total+=marks;
         }
+
+        
         double averPer=(double)total/num;
     char Grade;
     if(averPer>=90){

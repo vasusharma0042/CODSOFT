@@ -6,7 +6,6 @@ public class CurrencyConverter {
     return euros *  EXCHANGE_RATE;
   
 }
-
 public static void main(String[]arg){
   Scanner scanner = new Scanner(System.in);
   System.out.println("Enter Amount");
